@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from app.apyland.finance/calculator.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 11:20:52 GMT -->
+
+<!-- Mirrored from monteno.org/dashboard/calculator.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 03:14:26 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Theme tittle -->
+    <title>APYLAND FINANCE</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/default.css" rel="stylesheet">
+    <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.html" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body class="color_blk">
+
+    <div class="off-canvas-overlay"></div>
+    <!--------------- Site main content wrap Start --------------->
+     <div class="sitemain__content__wrap">
+        <div class="site_let_sidebar">
+            <div class="lert_side_bar_inner">
+                <div class="left_bar_top_blk">
+                    <div class="site_logo">
+                        <a href="https://www.apyland.finance/"><img src="assets/img/logo.png" alt=""></a>
+                    </div>
+                    <div class="left_bar_manu">
+                        <ul>
+                            <li><a href="index-2.html"><span><img src="assets/img/icon-1.svg" alt=""></span> Dashboard</a></li>
+                            <li><a href="account.html"><span><img src="assets/img/user.svg" alt=""></span> Account</a></li>
+                            <li class="active"><a class="active"  href="calculator.html"><span><img src="assets/img/calculator.svg" alt=""></span> Calculator</a>
+                            </li>
+                            <li><a href="https://app.bogged.finance/bsc/swap?tokenIn=BNB&amp;tokenOut=0xDEAE94E9E4A972D1296c5903A3a4B6dad65c940b"><span><img src="assets/img/Swap.svg" alt=""></span> Swap</a></li>
+                             <li><a href="game.html"><span><img src="assets/img/icon/game.svg" alt=""></span>Game</a></li>
+                            <li><a href="https://docs.apyland.finance/"><span><img src="assets/img/docs.svg" alt=""></span> Docs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="left_bar_bottom_social">
+                    <a href="https://twitter.com/ApylandOfficial"><img src="assets/img/Twitter.png" alt=""></a>
+                    <a href="https://t.me/apyland"><img src="assets/img/telegram.png" alt=""></a>
+                <!---------------     <a href="#"><img src="assets/img/Icon.png" alt=""></a>
+                    <a href="#"><img src="assets/img/medium.png" alt=""></a> 
+                    <a href="#"><img src="assets/img/GitHub.png" alt=""></a> --------------->
+                </div>
+            </div>
+            <div class="cls-off-canvas-menu">
+                <i class="fal fa-times"></i>
+            </div>
+        </div>
+        <div class="site_main_content_blk">
+            <div class="site_header_area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="header_mb_flx">
+                                <div class="mobile_logo">
+                                    <a href="index-3.html"><img src="assets/img/logo.png" alt=""></a>
+                                </div>
+                                <div class="header_side_right_lk">
+                                    <a class="dis_ntn" href="#">APL $0.00 USD</a>
+                                   <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Connect Wallet</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toggle-bar dashboard-toggle"><i class="fal fa-align-right"></i></div>
+            </div>
+
+            <div class="returns_wrap">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="returns_block">
+                                <img class="dashbt-1" src="assets/img/dash_2/s-1.png" alt="">
+                                <img class="dashbt-2" src="assets/img/dash_2/s-2.png" alt="">
+                                <img class="dashbt-3" src="assets/img/dash_2/s-3.png" alt="">
+                                <img class="dashbt-4" src="assets/img/dash_2/s-4.png" alt="">
+                                <img class="dashbt-5" src="assets/img/dash_2/s-5.png" alt="">
+                                <img class="dashbt-6" src="assets/img/dash_2/s-6.png" alt="">
+                                <img class="dashbt-7" src="assets/img/dash_2/s-7.png" alt="">
+                                <img class="dashbt-8" src="assets/img/dash_2/s-8.png" alt="">
+                                <img class="dashbt-9" src="assets/img/dash_2/s-9.png" alt="">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="returnd_title">
+                                            <h4>Calculator</h4>
+                                            <p>Estimate your returns</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="returns_price_blk">
+                                            <span>APL Price</span>
+                                            <a href="#">$0.00</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="returns_price_blk">
+                                            <span>APY:</span>
+                                            <a href="#">0.00%</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="returns_price_blk">
+                                            <span>Your APL Balance</span>
+                                            <a href="#">0.00 APL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="returnd_from">
+                                    <form action="#">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="single_input_cnt">
+                                                    <div class="single_input">
+                                                        <lable>APL Amount</lable>
+                                                    </div>
+                                                    <div class="single_input_from">
+                                                        <input type="text" placeholder="0">
+                                                        <span>Max</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="single_input_cnt">
+                                                    <div class="single_input">
+                                                        <lable>APY (%)</lable>
+                                                    </div>
+                                                    <div class="single_input_from">
+                                                        <input type="text" placeholder="102989.58">
+                                                        <span>Current</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="single_input_cnt">
+                                                    <div class="single_input">
+                                                        <lable>APL price at purchase ($)</lable>
+                                                    </div>
+                                                    <div class="single_input_from">
+                                                        <input type="text" placeholder="0.196633">
+                                                        <span>Current</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="single_input_cnt">
+                                                    <div class="single_input">
+                                                        <lable>Future APL price ($)</lable>
+                                                    </div>
+                                                    <div class="single_input_from">
+                                                        <input type="text" placeholder="0.196633">
+                                                        <span>Current</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="range_bar_blk">
+                                            <div class="extra-controls">
+                                                <input type="text" class="js-input" value="0" />
+                                                days
+                                            </div>
+                                            <div class="range-slider">
+                                                <input type="text" class="js-range-slider" value="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="price_table_blkk">
+                                            <div class="single_table_blkk">
+                                                <ul>
+                                                    <li><a href="#">Your initial investment</a></li>
+                                                    <li><a href="#">Current wealth</a></li>
+                                                    <li><a href="#">APL rewards estimation</a></li>
+                                                    <li><a href="#">Potential return</a></li>
+                                                    <li><a href="#">Potential number of TESLA</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="single_table_blkk">
+                                                <ul>
+                                                    <li><a href="#">$0.00</a></li>
+                                                    <li><a href="#">$0.00</a></li>
+                                                    <li><a href="#">0.00 APL</a></li>
+                                                    <li><a href="#">$0.00</a></li>
+                                                    <li><a href="#">0</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    
+        
+        <!-- Modal -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              
+                <div class="modal-body">
+                    <div class="metamask__section">
+                        <img class="spp_shape_1" src="assets/img/dash_2/m-1.png" alt="">
+                        <img class="spp_shape_2" src="assets/img/dash_2/m-2.png" alt="">
+                        <img class="spp_shape_3" src="assets/img/dash_2/m-3.png" alt="">
+                        <img class="spp_shape_4" src="assets/img/dash_2/m-4.png" alt="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="metamask_block">
+                                        <div class="metamask_single_blk">
+                                            <div class="metamask_tr">
+                                                <a href="#"><img src="assets/img/dog.png" alt=""></a>
+                                                <h3>Connect to your MetaMask Wallet</h3>
+                                            </div>
+                                        </div>
+                                        <div class="metamask_single_blk">
+                                            <div class="metamask_tr">
+                                                <a href="#"><img src="assets/img/net.png" alt=""></a>
+                                                <h3>Scan with WalletConnect to connect</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------- Site main content wrap End --------------->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.scrollUp.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="../cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.html"></script>
+    <script>
+        var $range = $(".js-range-slider"),
+            $input = $(".js-input"),
+            instance,
+            min = 1,
+            max = 365;
+
+        $range.ionRangeSlider({
+            skin: "round",
+            type: "single",
+            min: min,
+            max: max,
+            from: 30,
+            onStart: function(data) {
+                $input.prop("value", data.from);
+            },
+            onChange: function(data) {
+                $input.prop("value", data.from);
+            }
+        });
+
+        instance = $range.data("ionRangeSlider");
+
+        $input.on("change keyup", function() {
+            var val = $(this).prop("value");
+
+            // validate
+            if (val < min) {
+                val = min;
+            } else if (val > max) {
+                val = max;
+            }
+
+            instance.update({
+                from: val
+            });
+        });
+
+    </script>
+</body>
+
+
+<!-- Mirrored from app.apyland.finance/calculator.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 11:20:53 GMT -->
+
+<!-- Mirrored from monteno.org/dashboard/calculator.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 03:14:30 GMT -->
+</html>
