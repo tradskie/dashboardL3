@@ -1,350 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Mirrored from app.apyland.finance/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 11:20:01 GMT -->
 
+  <!-- Mirrored from monteno.org/dashboard/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 03:14:16 GMT -->
+  <head>
+    <style>
+      .web3modal-modal-lightbox {
+        z-index: 100000 !important;
+      }
+      .web3modal-modal-card {
+        z-index: 1000000 !important;
+        opacity: 1 !important;
+        background-color: #0d0919;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<!-- Mirrored from app.apyland.finance/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Apr 2022 11:20:01 GMT -->
-
-<!-- Mirrored from monteno.org/dashboard/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 03:14:16 GMT -->
-<head>
-	<style>
-		.web3modal-modal-lightbox { z-index: 100000 !important; }
-		.web3modal-modal-card {
-								z-index: 1000000 !important;
-								opacity: 1 !important;
-								background-color: #0D0919;
-								}
-	</style>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="icon" href="../montenokit/wp-content/uploads/2022/02/cropped-icon-logo-192x192.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="../montenokit/wp-content/uploads/2022/02/cropped-icon-logo-192x192.png"
+      type="image/x-icon"
+    />
     <!-- Theme tittle -->
     <title>Monteno</title>
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/fontawesome.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/default.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-
-</head>
-
-<body class="color_blk" style='background-color:#280e67'>
-
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/all.min.css" rel="stylesheet" />
+    <link href="assets/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/default.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+  </head>
+  <video autoplay mute loop id="myVideo">
+    <source src="./assets/img/space-background.mp4" type="video/mp4" />
+  </video>
+  <body class="color_blk" style="background-color: #280e67">
     <div class="off-canvas-overlay"></div>
-
-
-
-
-
-
-
-
-
 
     <!--------------- Site main content wrap Start --------------->
     <div class="sitemain__content__wrap">
-        <div class="site_let_sidebar">
-            <div class="lert_side_bar_inner">
-                <div class="left_bar_top_blk">
-                    <div class="site_logo">
-                        <a href="https://monteno.org/"><img src="../montenokit/wp-content/uploads/2022/02/logo-01.png" alt=""></a>
-                    </div>
-                    <div class="left_bar_manu">
-                        <ul>
-                            <li class="active"><a class="active" href="index-2.html"><span><img src="assets/img/icon-1.svg" alt=""></span> Dashboard</a></li>
-                            <li><a href="account.html"><span><img src="assets/img/user.svg" alt=""></span> Account</a></li>
-                           
-                            <li><a href="#"><span><img src="assets/img/Swap.svg" alt=""></span> Swap</a></li>
-                           
-                            
-                        </ul>
-                    </div>
-                </div>
-                <div class="left_bar_bottom_social">
-                   
-                    <a href="https://t.me/monteno_com"><img src="assets/img/telegram.png" alt=""></a>
-                <!---------------     <a href="#"><img src="assets/img/Icon.png" alt=""></a>
+      <div class="site_let_sidebar">
+        <div class="lert_side_bar_inner">
+          <div class="left_bar_top_blk">
+            <div class="site_logo">
+              <a href="https://monteno.org/"
+                ><img
+                  src="../montenokit/wp-content/uploads/2022/02/logo-01.png"
+                  alt=""
+              /></a>
+            </div>
+            <div class="left_bar_manu">
+              <ul>
+                <li class="active">
+                  <a class="active" href="index-2.html"
+                    ><span><img src="assets/img/icon-1.svg" alt="" /></span>
+                    Dashboard</a
+                  >
+                </li>
+                <li>
+                  <a href="account.html"
+                    ><span><img src="assets/img/user.svg" alt="" /></span>
+                    Account</a
+                  >
+                </li>
+
+                <li>
+                  <a href="#"
+                    ><span><img src="assets/img/Swap.svg" alt="" /></span>
+                    Swap</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="left_bar_bottom_social">
+            <a href="https://t.me/monteno_com"
+              ><img src="assets/img/telegram.png" alt=""
+            /></a>
+            <!---------------     <a href="#"><img src="assets/img/Icon.png" alt=""></a>
                     <a href="#"><img src="assets/img/medium.png" alt=""></a>
                     <a href="#"><img src="assets/img/GitHub.png" alt=""></a> --------------->
-                </div>
-            </div>
-            <div class="cls-off-canvas-menu">
-                <i class="fal fa-times"></i>
-            </div>
+          </div>
         </div>
-        <div class="site_main_content_blk">
-            <div class="site_header_area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="header_mb_flx">
-                                <div class="mobile_logo">
-                                    <a href="index-3.html"><img src="../montenokit/wp-content/uploads/2022/02/logo-01.png" alt=""></a>
-                                </div>
-                                <div class="header_side_right_lk">
-                                    <a class="dis_ntn" href="#">MTO $0.000 USD</a>
-									<div id="prepare" style="display: inline">
-                                    <a class="btn btn-primary" id="btn-connect" >Connect Wallet</a>
-									</div>
-									<div id="connected" style="display: none">
-									<a class="btn btn-primary" id="btn-disconnect" >Disconnect Wallet</a>
-									</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="toggle-bar dashboard-toggle"><i class="fal fa-align-right"></i></div>
-            </div>
-            <div class="site_main_wrapper">
-                <div class="container-fluid">
-                    
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4">
-                            <div class="site_main_boxsed">
-                                <div class="single_main_box">
-                                    <h5>Market Cap</h5>
-                                    <a href="#" id="marketcap">$0.00</a>
-                                </div>
-                                <div class="single_main_box">
-                                    <h5>Circulating Supply</h5>
-                                    <a href="#" id='circSupply'>0</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="site_main_boxsed">
-                                <div class="single_main_box">
-                                    <h5>MTO Price</h5>
-                                    <a href="#" id="MTOp">$0.0000</a>
-                                </div>
-                                <div class="single_main_box">
-                                    <h5>Backed Liquidity</h5>
-                                    <a href="#">100%</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <div class="site_main_boxsed">
-                                <div class="single_main_box">
-                                    <h5>Next Rebase</h5>
-                                    <a href="#" id="nextRebase">00:00:00</a>
-                                </div>
-                                <div class="single_main_box">
-                                    <h5>Total Supply</h5>
-                                    <a href="#" id="totalSupply">$0.00</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="price_wrapper">
-                <div class="container-fluid">
-                    <img class="d-shape-5" src="assets/img/dashboard-shape/s-5.png" alt="">
-                    <img class="d-shape-6" src="assets/img/dashboard-shape/s-3.png" alt="">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="price_box">
-                                <div class="price_box_inner">
-                                    <span>MTO Price</span>
-                                    <a href="#" id='MTOp1'>$0.000</a>
-                                </div>
-                                <div class="price_info">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="price_box">
-                                <div class="price_box_inner">
-                                    <span>Market Value Of Treasury Assets</span>
-                                    <a href="#" id="treasupply">$0.00</a>
-                                </div>
-                                <div class="price_info">
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="price_box">
-                                <div class="price_box_inner">
-                                    <span>Insurance Fund Value</span>
-                                    <a href="#" id='inssupply'>$0.00</a>
-                                </div>
-                                <div class="price_info">
-                                  
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="price_box">
-                                <div class="price_box_inner">
-                                    <span>Value of FirePit</span>
-                                    <a href="#" id="firepitv">0.00</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="cls-off-canvas-menu">
+          <i class="fal fa-times"></i>
         </div>
+      </div>
+      <div class="site_main_content_blk">
+        <div class="site_header_area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="header_mb_flx">
+                  <div class="mobile_logo">
+                    <a href="index-3.html"
+                      ><img
+                        src="../montenokit/wp-content/uploads/2022/02/logo-01.png"
+                        alt=""
+                    /></a>
+                  </div>
+                  <div class="header_side_right_lk">
+                    <a class="dis_ntn" href="#">MTO $0.000 USD</a>
+                    <div id="prepare" style="display: inline">
+                      <a class="btn btn-primary" id="btn-connect"
+                        >Connect Wallet</a
+                      >
+                    </div>
+                    <div id="connected" style="display: none">
+                      <a class="btn btn-primary" id="btn-disconnect"
+                        >Disconnect Wallet</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="toggle-bar dashboard-toggle">
+            <i class="fal fa-align-right"></i>
+          </div>
+        </div>
+        <div class="site_main_wrapper">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="site_main_boxsed">
+                  <div class="single_main_box">
+                    <h5>Market Cap</h5>
+                    <a href="#" id="marketcap">$0.00</a>
+                  </div>
+                  <div class="single_main_box">
+                    <h5>Circulating Supply</h5>
+                    <a href="#" id="circSupply">0</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="site_main_boxsed">
+                  <div class="single_main_box">
+                    <h5>MTO Price</h5>
+                    <a href="#" id="MTOp">$0.0000</a>
+                  </div>
+                  <div class="single_main_box">
+                    <h5>Backed Liquidity</h5>
+                    <a href="#">100%</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="site_main_boxsed">
+                  <div class="single_main_box">
+                    <h5>Next Rebase</h5>
+                    <a href="#" id="nextRebase">00:00:00</a>
+                  </div>
+                  <div class="single_main_box">
+                    <h5>Total Supply</h5>
+                    <a href="#" id="totalSupply">$0.00</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="price_wrapper">
+          <div class="container-fluid">
+            <img
+              class="d-shape-5"
+              src="assets/img/dashboard-shape/s-5.png"
+              alt=""
+            />
+            <img
+              class="d-shape-6"
+              src="assets/img/dashboard-shape/s-3.png"
+              alt=""
+            />
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <div class="price_box">
+                  <div class="price_box_inner">
+                    <span>MTO Price</span>
+                    <a href="#" id="MTOp1">$0.000</a>
+                  </div>
+                  <div class="price_info"></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="price_box">
+                  <div class="price_box_inner">
+                    <span>Market Value Of Treasury Assets</span>
+                    <a href="#" id="treasupply">$0.00</a>
+                  </div>
+                  <div class="price_info"></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="price_box">
+                  <div class="price_box_inner">
+                    <span>Insurance Fund Value</span>
+                    <a href="#" id="inssupply">$0.00</a>
+                  </div>
+                  <div class="price_info"></div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <div class="price_box">
+                  <div class="price_box_inner">
+                    <span>Value of FirePit</span>
+                    <a href="#" id="firepitv">0.00</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-
-       <!-- Modal -->
-    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-               
-                <div class="modal-body">
-                    <div class="metamask__section">
-                        <img class="spp_shape_1" src="assets/img/dash_2/m-1.png" alt="">
-                        <img class="spp_shape_2" src="assets/img/dash_2/m-2.png" alt="">
-                        <img class="spp_shape_3" src="assets/img/dash_2/m-3.png" alt="">
-                        <img class="spp_shape_4" src="assets/img/dash_2/m-4.png" alt="">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="metamask_block">
-                                        <div class="metamask_single_blk">
-                                            <div class="metamask_tr">
-                                                <a href="#"><img src="assets/img/dog.png" alt=""></a>
-                                                <h3>Connect to your MetaMask Wallet</h3>
-                                            </div>
-                                        </div>
-                                        <div class="metamask_single_blk">
-                                            <div class="metamask_tr">
-                                                <a href="#"><img src="assets/img/net.png" alt=""></a>
-                                                <h3>Scan with WalletConnect to connect</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalToggle"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="metamask__section">
+              <img class="spp_shape_1" src="assets/img/dash_2/m-1.png" alt="" />
+              <img class="spp_shape_2" src="assets/img/dash_2/m-2.png" alt="" />
+              <img class="spp_shape_3" src="assets/img/dash_2/m-3.png" alt="" />
+              <img class="spp_shape_4" src="assets/img/dash_2/m-4.png" alt="" />
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="metamask_block">
+                      <div class="metamask_single_blk">
+                        <div class="metamask_tr">
+                          <a href="#"
+                            ><img src="assets/img/dog.png" alt=""
+                          /></a>
+                          <h3>Connect to your MetaMask Wallet</h3>
                         </div>
+                      </div>
+                      <div class="metamask_single_blk">
+                        <div class="metamask_tr">
+                          <a href="#"
+                            ><img src="assets/img/net.png" alt=""
+                          /></a>
+                          <h3>Scan with WalletConnect to connect</h3>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <!--------------- Site main content wrap End --------------->
 
+    <script src="../../cdn.jsdelivr.net/npm/web3%40latest/dist/web3.min.js"></script>
+    <script>
+      const headers = {
+        accept: "application/json",
+        "X-API-Key":
+          "Az6JbW1kj8ONgpWfOBX5Jwq0I8MMPISnCejH0b19PH8EFuqD0FvjRueuNfMAXx5P",
+      }
+      var usdPrice = 0
+      fetch(
+        "https://deep-index.moralis.io/api/v2/erc20/0xAF13Ad91cd973c45073439F39726Bcb5a470fDE5/price?chain=bsc&amp;exchange=0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+        { headers }
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data.usdPrice)
+          usdPrice = data.usdPrice.toFixed(2)
+          document.getElementById("MTOp").innerHTML = "$" + usdPrice
+          document.getElementById("MTOp1").innerHTML = "$" + usdPrice
+          connectETHA()
+        })
 
+      var decimal = 100000
+      var MyContract
+      async function connectETHA() {
+        if (window.ethereum) {
+          window.web3 = new Web3(window.ethereum)
+          MyContract = new web3.eth.Contract(
+            JSON.parse(
+              '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"uint256","name":"epoch","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"totalSupply","type":"uint256"}],"name":"LogRebase","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"}],"name":"OwnershipRenounced","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[],"name":"DECIMALS","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MAX_UINT256","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MTOInsuranceFundFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"MTOInsuranceFundReceiver","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"RATE_DECIMALS","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_autoAddLiquidity","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_autoRebase","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_initRebaseStartTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_lastAddLiquidityTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_lastRebasedTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner_","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"autoLiquidityReceiver","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"who","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"blacklist","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"_addr","type":"address"}],"name":"checkFeeExempt","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"feeDenominator","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"firePitFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"gameTreasuryFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"gameTreasuryReceiver","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getCirculatingSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"accuracy","type":"uint256"}],"name":"getLiquidityBacking","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"infernoPit","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"isNotInSwap","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"isOwner","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"liquidityFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"manualSync","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"pair","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"pairAddress","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"pairContract","outputs":[{"internalType":"contract IPancakeSwapPair","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"rebaseInterval","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"router","outputs":[{"internalType":"contract IPancakeSwapRouter","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"sellFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"bool","name":"_flag","type":"bool"}],"name":"setAutoAddLiquidity","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"bool","name":"_flag","type":"bool"}],"name":"setAutoRebase","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"_botAddress","type":"address"},{"internalType":"bool","name":"_flag","type":"bool"}],"name":"setBotBlacklist","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"_liquidityFee","type":"uint256"},{"internalType":"uint256","name":"_gameTreasuryFee","type":"uint256"},{"internalType":"uint256","name":"_MTOInsuranceFundFee","type":"uint256"},{"internalType":"uint256","name":"_firePitFee","type":"uint256"},{"internalType":"uint256","name":"_sellFee","type":"uint256"}],"name":"setFee","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"_gameTreasuryReceiver","type":"address"},{"internalType":"address","name":"_MTOInsuranceFundReceiver","type":"address"},{"internalType":"address","name":"_infernoPit","type":"address"}],"name":"setFeeReceivers","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"_addr","type":"address"}],"name":"setWhitelist","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"swapEnabled","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"from","type":"address"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"value","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"withdrawAllTogameTreasury","outputs":[],"stateMutability":"nonpayable","type":"function"},{"stateMutability":"payable","type":"receive"}]'
+            ),
+            "0xAF13Ad91cd973c45073439F39726Bcb5a470fDE5"
+          )
+          var circSupply = (
+            (await MyContract.methods.getCirculatingSupply().call()) / decimal
+          ).toFixed(2)
+          var totalSupply = (
+            (await MyContract.methods.totalSupply().call()) / decimal
+          ).toFixed(2)
+          var maketcap = (usdPrice * circSupply).toFixed(2)
+          document.getElementById("marketcap").innerHTML = "$" + maketcap
+          document.getElementById("circSupply").innerHTML = circSupply
+          document.getElementById("totalSupply").innerHTML = totalSupply
+          var treasupply =
+            (await MyContract.methods
+              .balanceOf("0x4508002cf86e98e62b6cda61862d26a43323d174")
+              .call()) / decimal
 
+          document.getElementById("treasupply").innerHTML =
+            "$" + (usdPrice * treasupply).toFixed(2)
+          var inssupply =
+            (await MyContract.methods
+              .balanceOf("0xfa95675b8a3457da998cdb1135728e82deee5524")
+              .call()) / decimal
 
+          document.getElementById("inssupply").innerHTML =
+            "$" + (usdPrice * inssupply).toFixed(2)
+          var fireSupply =
+            (await MyContract.methods
+              .balanceOf("0x5285B17Cd9A8ca8d68ae90265Ee1D8314fe46425")
+              .call()) / decimal
 
+          document.getElementById("firepitv").innerHTML = fireSupply + " MTO"
+          document.getElementById("firepitvu").innerHTML =
+            "$" + (usdPrice * fireSupply).toFixed(2)
+          var firepp = ((fireSupply / totalSupply) * 100).toFixed(2)
+          document.getElementById("firepitvp").innerHTML = "%" + firepp
 
-<script src="../../cdn.jsdelivr.net/npm/web3%40latest/dist/web3.min.js"></script>
-      <script>
-         const headers = {
-         'accept': 'application/json',
-         'X-API-Key': 'Az6JbW1kj8ONgpWfOBX5Jwq0I8MMPISnCejH0b19PH8EFuqD0FvjRueuNfMAXx5P'
-         };
-         var usdPrice=0;
-         fetch('https://deep-index.moralis.io/api/v2/erc20/0xAF13Ad91cd973c45073439F39726Bcb5a470fDE5/price?chain=bsc&amp;exchange=0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73', { headers })
-         .then(response => response.json())
-         .then(data =>{
-             console.log(data.usdPrice)
-             usdPrice=data.usdPrice.toFixed(2);
-             document.getElementById('MTOp').innerHTML='$'+usdPrice;
-             document.getElementById('MTOp1').innerHTML='$'+usdPrice;
-              connectETHA()
-         });
-         
-       
-         
-         
-         var decimal=100000;
-         var MyContract;
-          async function connectETHA(){
-            if (window.ethereum) {
-              
-                window.web3 = new Web3(window.ethereum);  
-               MyContract = new web3.eth.Contract(JSON.parse("[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Approval\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"epoch\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"totalSupply\",\"type\":\"uint256\"}],\"name\":\"LogRebase\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"}],\"name\":\"OwnershipRenounced\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"DECIMALS\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MAX_UINT256\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MTOInsuranceFundFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MTOInsuranceFundReceiver\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"RATE_DECIMALS\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_autoAddLiquidity\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_autoRebase\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_initRebaseStartTime\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_lastAddLiquidityTime\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_lastRebasedTime\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"_totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner_\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"autoLiquidityReceiver\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"who\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"blacklist\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"checkFeeExempt\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"decimals\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"subtractedValue\",\"type\":\"uint256\"}],\"name\":\"decreaseAllowance\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"feeDenominator\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"firePitFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"gameTreasuryFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"gameTreasuryReceiver\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCirculatingSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"accuracy\",\"type\":\"uint256\"}],\"name\":\"getLiquidityBacking\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"spender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"addedValue\",\"type\":\"uint256\"}],\"name\":\"increaseAllowance\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"infernoPit\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isNotInSwap\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"liquidityFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"manualSync\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pair\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pairAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"pairContract\",\"outputs\":[{\"internalType\":\"contract IPancakeSwapPair\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"rebaseInterval\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"router\",\"outputs\":[{\"internalType\":\"contract IPancakeSwapRouter\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"sellFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bool\",\"name\":\"_flag\",\"type\":\"bool\"}],\"name\":\"setAutoAddLiquidity\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bool\",\"name\":\"_flag\",\"type\":\"bool\"}],\"name\":\"setAutoRebase\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_botAddress\",\"type\":\"address\"},{\"internalType\":\"bool\",\"name\":\"_flag\",\"type\":\"bool\"}],\"name\":\"setBotBlacklist\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_liquidityFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_gameTreasuryFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_MTOInsuranceFundFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_firePitFee\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_sellFee\",\"type\":\"uint256\"}],\"name\":\"setFee\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_gameTreasuryReceiver\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_MTOInsuranceFundReceiver\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_infernoPit\",\"type\":\"address\"}],\"name\":\"setFeeReceivers\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"setWhitelist\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"swapEnabled\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalFee\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withdrawAllTogameTreasury\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}]"), "0xAF13Ad91cd973c45073439F39726Bcb5a470fDE5");
-             var circSupply =  (await MyContract.methods.getCirculatingSupply().call()/decimal).toFixed(2);
-              var totalSupply =  (await MyContract.methods.totalSupply().call()/decimal).toFixed(2);
-              var maketcap=(usdPrice*circSupply).toFixed(2);
-             document.getElementById('marketcap').innerHTML='$'+maketcap;
-              document.getElementById('circSupply').innerHTML=circSupply;
-               document.getElementById('totalSupply').innerHTML=totalSupply;
-                 var treasupply =  (await MyContract.methods.balanceOf("0x4508002cf86e98e62b6cda61862d26a43323d174").call()/decimal);
-                 
-                  document.getElementById('treasupply').innerHTML="$"+(usdPrice*treasupply).toFixed(2);;
-                    var inssupply =  (await MyContract.methods.balanceOf("0xfa95675b8a3457da998cdb1135728e82deee5524").call()/decimal);
-                 
-                  document.getElementById('inssupply').innerHTML="$"+(usdPrice*inssupply).toFixed(2);;
-                  var fireSupply =  (await MyContract.methods.balanceOf("0x5285B17Cd9A8ca8d68ae90265Ee1D8314fe46425").call()/decimal);
-                  
-                document.getElementById('firepitv').innerHTML=fireSupply+" MTO";
-                 document.getElementById('firepitvu').innerHTML="$"+(usdPrice*fireSupply).toFixed(2);;
-                 var firepp=((fireSupply/totalSupply)*100).toFixed(2);
-                  document.getElementById('firepitvp').innerHTML="%"+firepp;;
-                  
-                  
-                   var countDownDate = await MyContract.methods._lastRebasedTime().call();
-                  var d = new Date((countDownDate*1000+ 15*60000));
-                 
-                   countDownDate =d.getTime();;
-   var myfunc = setInterval(function() {
-// code goes here
-var now = new Date().getTime();
-var timeleft = countDownDate - now;
-    
-var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
-var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
-if(minutes<9){
-minutes="0"+minutes;
-}
-if(seconds<9){
-seconds="0"+seconds;
-}
-if (timeleft < 0) {
-    clearInterval(myfunc);
-    document.getElementById("nextRebase").innerHTML = "00 : 00 : 00"
-   
-     
-   
-}else{
+          var countDownDate = await MyContract.methods._lastRebasedTime().call()
+          var d = new Date(countDownDate * 1000 + 15 * 60000)
 
-    document.getElementById("nextRebase").innerHTML = "0"+hours +" : "+minutes+" : "+seconds
+          countDownDate = d.getTime()
+          var myfunc = setInterval(function () {
+            // code goes here
+            var now = new Date().getTime()
+            var timeleft = countDownDate - now
 
-}
-}
-, 1000)
-               if(parseInt(window.ethereum.chainId)==56||window.ethereum.chainId==null){
-                  
-                 
-              
-               await window.ethereum.enable();
-             var string = window.web3.currentProvider.selectedAddress;
-var first4 =string.substring(0, 4);
-var last5 = string.substring(string.length - 4);
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24))
+            var hours = Math.floor(
+              (timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            )
+            var minutes = Math.floor(
+              (timeleft % (1000 * 60 * 60)) / (1000 * 60)
+            )
+            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000)
+            if (minutes < 9) {
+              minutes = "0" + minutes
+            }
+            if (seconds < 9) {
+              seconds = "0" + seconds
+            }
+            if (timeleft < 0) {
+              clearInterval(myfunc)
+              document.getElementById("nextRebase").innerHTML = "00 : 00 : 00"
+            } else {
+              document.getElementById("nextRebase").innerHTML =
+                "0" + hours + " : " + minutes + " : " + seconds
+            }
+          }, 1000)
+          if (
+            parseInt(window.ethereum.chainId) == 56 ||
+            window.ethereum.chainId == null
+          ) {
+            await window.ethereum.enable()
+            var string = window.web3.currentProvider.selectedAddress
+            var first4 = string.substring(0, 4)
+            var last5 = string.substring(string.length - 4)
 
-mask = string.substring(4, 8).replace(/\d/g,"*");
-var new_string=first4+mask+last5
+            mask = string.substring(4, 8).replace(/\d/g, "*")
+            var new_string = first4 + mask + last5
 
- document.getElementById('adressa').innerHTML=new_string;
-
-               
-                   }
-                   }}
-        
-      </script>
-
-
+            document.getElementById("adressa").innerHTML = new_string
+          }
+        }
+      }
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery.min.js"></script>
@@ -361,13 +402,7 @@ var new_string=first4+mask+last5
 
     <!-- This is our example code -->
     <script type="text/javascript" src="js/appWeb3.js"></script>
+  </body>
 
-
-
-</body>
-
-
-
-
-<!-- Mirrored from monteno.org/dashboard/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 03:14:16 GMT -->
+  <!-- Mirrored from monteno.org/dashboard/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 May 2022 03:14:16 GMT -->
 </html>
