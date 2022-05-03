@@ -713,7 +713,7 @@ ul {
   width: 448px;
   height: 100%;
   z-index: 999;
-  background: #0000003d;
+  background: #00000075;
 }
 .site_main_content_blk {
   margin-left: 448px;
@@ -849,7 +849,7 @@ ul {
 }
 .site_main_boxsed::before {
   position: absolute;
-  background: #0000003d;
+  background: #00000075;
   width: 100%;
   height: 100%;
   content: "";
@@ -912,7 +912,7 @@ ul {
   position: relative;
 }
 .total_price_content {
-  background: #0000003d;
+  background: #00000075;
   opacity: 0.9;
   padding: 75px;
   border-radius: 20px;
@@ -937,14 +937,14 @@ ul {
   margin: 0;
 }
 .apy_bx {
-  background: #0000003d;
+  background: #00000075;
   padding: 67px 75px;
   opacity: 0.9;
   border-radius: 20px;
   min-height: 262px;
 }
 .apy_bx.cls_9 {
-  background: #0000003d;
+  background: #00000075;
   opacity: 0.9;
 }
 .apy_bx span {
@@ -988,7 +988,7 @@ ul {
 }
 .single_table::before {
   position: absolute;
-  background: #0000003d;
+  background: #00000075;
   width: 100%;
   height: 100%;
   content: "";
@@ -1448,7 +1448,7 @@ ul {
 }
 .metamask_single_blk::before {
   position: absolute;
-  background: #0000003d;
+  background: #00000075;
   width: 100%;
   height: 100%;
   top: 0;
@@ -1790,7 +1790,7 @@ ul {
   width: 42px;
   height: 42px;
   border: 5px solid #9600ff;
-  background-color: #0000003d;
+  background-color: #00000075;
   border-radius: 24px;
   box-shadow: 0 1px 3px rgba(0, 0, 255, 0.3);
 }
